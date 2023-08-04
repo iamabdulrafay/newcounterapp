@@ -1,0 +1,157 @@
+* {
+  padding: 0px;
+  margin: 0px 0px;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  /* font-weight: 900; */
+}
+
+body {
+  background: rgb(255, 132, 100);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 132, 100, 1) 0%,
+    rgba(253, 105, 165, 1) 100%
+  );
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100%;
+}
+.heading {
+  font-size: 100px;
+  position: absolute;
+  top: 5px;
+  font-family: cursive;
+}
+.heading2 {
+  font-size: 100px;
+  position: absolute;
+  top: 91px;
+  font-family: cursive;
+}
+#title {
+  text-align: center;
+  font-size: 50px;
+}
+#title h1 {
+  font-size: 50px;
+}
+.card-btn button {
+  margin-left: 20px;
+  padding: 10px 30px;
+  border-radius: 20px;
+  border: none;
+  font-weight: bold;
+  /* font-family: cursive; */
+}
+.card-section {
+  background-color: white;
+  padding: 40px 60px;
+  border-radius: 50px;
+}
+#increment {
+  background-color: rgb(162, 204, 77);
+}
+#increment:hover {
+  background-color: rgb(170, 255, 0);
+}
+#reset {
+  background-color: rgb(226, 28, 28);
+}
+#reset:hover {
+  background-color: rgb(255, 0, 0);
+}
+#decrement {
+  background-color: rgb(68, 180, 68);
+}
+#decrement:hover {
+  background-color: rgb(0, 255, 0);
+}
+@media screen and (max-width: 775px) {
+  .heading {
+    font-size: 50px;
+    position: absolute;
+    top: 50px;
+    font-family: cursive;
+  }
+  .heading2 {
+    font-size: 50px;
+    position: absolute;
+    top: 120px;
+    font-family: cursive;
+  }
+}
+
+@media screen and (max-width: 542px) {
+  .heading {
+    font-size: 50px;
+    position: absolute;
+    top: 50px;
+    font-family: cursive;
+  }
+  .heading2 {
+    font-size: 50px;
+    position: absolute;
+    top: 120px;
+    font-family: cursive;
+  }
+  .card-section {
+    background-color: white;
+    padding: 40px 10px;
+    border-radius: 50px;
+  }
+  .card-btn button {
+    margin-left: 20px;
+    padding: 10px 10px;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    /* font-family: cursive; */
+  }
+}
+@media screen and (max-width: 389px) {
+  .heading {
+    font-size: 30px;
+    position: absolute;
+    top: 50px;
+    font-family: cursive;
+  }
+  .heading2 {
+    font-size: 30px;
+    position: absolute;
+    top: 120px;
+    font-family: cursive;
+  }
+  .card-section {
+    background-color: white;
+    padding: 30px 20px;
+    border-radius: 50px;
+  }
+}
+@media screen and (max-width: 340px) {
+  .card-btn button {
+    margin-left: 20px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    /* font-family: cursive; */
+    display: block;
+    margin-top: 20px;
+    margin-right: 17px;
+  }
+  .card-section {
+    background-color: white;
+    background-color: white;
+    padding: 30px 13px;
+    padding: 10px 27px;
+    border-radius: 50px;
+  }
+}
